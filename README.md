@@ -1,33 +1,33 @@
-# 🌍 AI Language Translator Agent (CLI-Based)
+# 💬 Chainlit-Based AI Translator Agent with Streaming Output
 
-A command-line interface (CLI) project that translates human language text using Google Gemini via an OpenAI-compatible API. This AI agent acts as a multilingual interpreter, allowing users to translate input text into any specified language.
+An interactive AI translation chatbot powered by Google Gemini and built using Chainlit. The agent translates human language input into any specified language with real-time streaming output.
 
 ---
 
 ## 🧠 Project Purpose
 
-This project is developed as part of the **Governor House AI Initiative** and the **Panaverse DAO** curriculum. It showcases practical usage of LLMs, API integration, and agent-based architectures in Python.
+This chatbot was created as part of the **Governor House AI & Cloud First Initiative** and **Panaverse DAO** curriculum. The project demonstrates how to build conversational agents using LLMs, Chainlit, and streaming interfaces.
 
 ---
 
 ## 🚀 Features
 
-- 🌐 Supports any language translation
-- ⚡ Powered by **Google Gemini** via OpenAI-compatible API
-- 🧱 Modular agent system using `Runner`, `Agent`, and `RunConfig`
-- 🧪 CLI-based interaction
-- 🔐 Secure API key loading via `.env`
-- ✅ Extendable to Chainlit (chat-based UI)
+- 🌍 Translate text to any human language
+- ⚡ Powered by Google Gemini (OpenAI-compatible API)
+- 🧠 AI agent with dynamic instructions
+- 💬 Real-time streaming responses
+- 🧱 Modular architecture using `Runner`, `Agent`, `RunConfig`
+- 🎨 Built using Chainlit for a chat UI experience
 
 ---
 
 ## 🛠️ Technologies Used
 
 - Python 3.9+
-- Google Gemini (OpenAI-compatible endpoint)
-- Agents framework (`Runner`, `Agent`, etc.)
+- [Chainlit](https://www.chainlit.io/)
+- Google Gemini via OpenAI-compatible endpoint
 - `python-dotenv`
-- Chainlit (optional extension)
+- Agents library (`Runner`, `Agent`, etc.)
 
 ---
 
@@ -36,5 +36,17 @@ This project is developed as part of the **Governor House AI Initiative** and th
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/AnasAAhmed//Translator-Ai_agent-CLI.git
-cd ai-translator-cli
+git clone https://github.com/your-username/chainlit-ai-translator.git
+cd chainlit-ai-translator
+```
+
+### 2. Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Create a .env file
+```bash
+GEMINI_API_KEY=your_google_gemini_api_key
+```
