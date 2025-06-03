@@ -47,7 +47,6 @@ async def main(message: cl.Message):
             token = chunk["choices"][0]["delta"].get("content") or ""
             full_response += token
             await msg.stream_token(token)
-            print(token, end="", flush=True)  
 
         await msg.update()
 
